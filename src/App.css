@@ -1,24 +1,30 @@
-.column{
+.column {
   display: flex;
   flex-direction: column;
 }
-.row{
+
+.row {
   display: flex;
   flex-direction: row;
 }
-.center{
+
+.center {
   justify-content: center;
   align-items: center;
 }
-.justifyCenter{
+
+.justifyCenter {
   justify-content: center;
 }
-.alignCenter{
+
+.alignCenter {
   align-items: center;
 }
-.space_between{
+
+.space_between {
   justify-content: space-between;
 }
-.fitWidth{
+
+.fitWidth {
   width: fit-content;
 }

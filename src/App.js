@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import PayrollForm from './components/payroll-form/payroll-form';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route, Redirect
-} from "react-router-dom"
+import Payrollform from './components/payroll-form/Payrollform.jsx';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div classsName="App">
-      <Router>
-        <Switch>
-          <Route exact path="">
-            <PayrollForm />
-          </Route>
-        </Switch>
-      </Router>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Payrollform />} />
+        </Routes>
+      </BrowserRouter>
     </div>
+    
   );
 }
 
