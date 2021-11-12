@@ -63,6 +63,42 @@
       "notes": "test",
       "id": 6,
       "profileUrl": "../../assets/profile-images/Ellipse 1.png"
+    },
+    {
+      "name": "Mahesh",
+      "departmentValues": [
+        "Sales"
+      ],
+      "gender": "Male",
+      "salary": "500000",
+      "startDate": "1 Jan 2021",
+      "notes": "hello",
+      "id": 7,
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Ananya",
+      "departmentValues": [
+        "Sales"
+      ],
+      "gender": "Female",
+      "salary": "500000",
+      "startDate": "1 Jan 2021",
+      "notes": "hello!!",
+      "id": 8,
+      "profileUrl": "../../assets/profile-images/Ellipse 1.png"
+    },
+    {
+      "name": "Srinadh",
+      "departmentValues": [
+        "HR"
+      ],
+      "gender": "Male",
+      "salary": "450449",
+      "startDate": "1 Jan 2021",
+      "notes": "fd",
+      "id": 9,
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
     }
   ]
 }
