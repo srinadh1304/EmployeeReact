@@ -42,6 +42,7 @@ const Payrollform = (props) => {
     const employeeService = new EmployeeService();
 
     const [formValue, setForm] = useState(initialValue);
+    const [displayMessage, setDisplayMessage] = useState("");
 
     const changeValue = (event) => {
         setForm({ ...formValue, [event.target.name]: event.target.value });
@@ -127,10 +128,21 @@ const Payrollform = (props) => {
         }
 
         employeeService.addEmployee(object).then(data => {
-            console.log("data added successfully")
-        }).catch(error => {
-            console.log("Error while adding");
-        })
+            setDisplayMessage("Successfully added user");
+            console.log("Successfully added user");
+            setTimeout(() => {
+                setDisplayMessage("");
+            }, 5000);
+            })
+
+        .catch(error => {
+            setDisplayMessage("Error while adding the user");
+            console.log("Error while adding the user");
+            setTimeout(() => {
+                setDisplayMessage("");
+            }, 5000);
+           
+        });
     }
 
     const reset = () => {
@@ -280,6 +292,9 @@ const Payrollform = (props) => {
                             <button type="submit" className="button submitButton" id="submitButton">{formValue.isUpdate ? 'Update' : 'Submit'}</button>
                             <button type="reset" onClick={reset} className="resetButton button">Reset</button>
                         </div>
+                    </div>
+                    <div className ="displaymessage">
+                        {displayMessage}
                     </div>
                 </form>
             </div>
