@@ -1,104 +1,40 @@
 {
   "EmployeePayrollDB": [
     {
-      "id": 2,
-      "_name": "Bill",
-      "_gender": "Male",
-      "_department": [
-        "Sales",
-        "Finance",
-        "Engineer"
-      ],
-      "_salary": "500000",
-      "_startDate": "Oct 16 2021",
-      "_note": "Terrific Engineer ...",
-      "_profilePic": "../assets/profile-images/Ellipse -8.png"
-    },
-    {
-      "_name": "Swathi",
-      "_profilePic": "../assets/profile-images/Ellipse 1.png",
-      "_gender": "Female",
-      "_department": [
-        "Sales",
-        "Engineer"
-      ],
-      "_salary": "400000",
-      "_note": "Hello",
-      "_startDate": "Oct 1 2021",
-      "id": 4
-    },
-    {
-      "_name": "Amarpa",
-      "_gender": "Female",
-      "_department": [
-        "Sales"
-      ],
-      "_salary": "400000",
-      "_startDate": "29 Oct 2019",
-      "_note": "",
-      "_profilePic": "../assets/profile-images/Ellipse -1.png",
-      "id": 3
-    },
-    {
-      "name": "Swathi",
-      "departmentValues": [
-        "Sales",
-        "Engineer"
-      ],
-      "gender": "Female",
-      "salary": "400000",
-      "startDate": "1 Jan 2021",
-      "notes": "er",
-      "id": 5,
-      "profileUrl": "../../assets/profile-images/Ellipse 1.png"
-    },
-    {
-      "name": "Shruthi",
-      "departmentValues": [
-        "Sales"
-      ],
-      "gender": "Female",
-      "salary": "500000",
-      "startDate": "1 Jan 2021",
-      "notes": "test",
-      "id": 6,
-      "profileUrl": "../../assets/profile-images/Ellipse 1.png"
-    },
-    {
-      "name": "Mahesh",
-      "departmentValues": [
-        "Sales"
+      "name": "Srinad",
+      "departMentValue": [
+        "Finance"
       ],
       "gender": "Male",
-      "salary": "500000",
-      "startDate": "1 Jan 2021",
-      "notes": "hello",
-      "id": 7,
+      "salary": "30000",
+      "startDate": "1 Jan 2020",
+      "notes": "fds",
+      "id": 13,
       "profileUrl": "../../assets/profile-images/Ellipse -3.png"
     },
     {
-      "name": "Ananya",
-      "departmentValues": [
-        "Sales"
-      ],
-      "gender": "Female",
-      "salary": "500000",
-      "startDate": "1 Jan 2021",
-      "notes": "hello!!",
-      "id": 8,
-      "profileUrl": "../../assets/profile-images/Ellipse 1.png"
-    },
-    {
-      "name": "Srinadh",
-      "departmentValues": [
-        "HR"
+      "name": "Chandra",
+      "departMentValue": [
+        "Engineer"
       ],
       "gender": "Male",
-      "salary": "450449",
-      "startDate": "1 Jan 2021",
-      "notes": "fd",
-      "id": 9,
-      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+      "salary": "30000",
+      "startDate": "1 Jan 2020",
+      "notes": "fdsa",
+      "id": 14,
+      "profileUrl": "../../assets/profile-images/Ellipse -1.png"
+    },
+    {
+      "name": "Chand",
+      "departMentValue": [
+        "Sales"
+      ],
+      "gender": "Male",
+      "salary": "40000",
+      "startDate": "1 Jan 2020",
+      "notes": "fdsafdsa",
+      "id": 15,
+      "profileUrl": "../../assets/profile-images/Ellipse -8.png"
     }
   ]
 }
