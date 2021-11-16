@@ -1,39 +1,28 @@
 {
   "EmployeePayrollDB": [
     {
-      "name": "Srinad",
-      "departMentValue": [
-        "Finance"
+      "name": "Srinadh",
+      "departmentValues": [
+        "HR"
       ],
       "gender": "Male",
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "fds",
-      "id": 13,
+      "salary": "40000",
+      "startDate": "1 Jul 2021",
+      "notes": "None",
+      "id": 1,
       "profileUrl": "../../assets/profile-images/Ellipse -3.png"
     },
     {
       "name": "Chandra",
-      "departMentValue": [
+      "departmentValues": [
+        "Sales",
         "Engineer"
       ],
       "gender": "Male",
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "fdsa",
-      "id": 14,
-      "profileUrl": "../../assets/profile-images/Ellipse -1.png"
-    },
-    {
-      "name": "Chand",
-      "departMentValue": [
-        "Sales"
-      ],
-      "gender": "Male",
-      "salary": "40000",
-      "startDate": "1 Jan 2020",
-      "notes": "fdsafdsa",
-      "id": 15,
+      "salary": "54000",
+      "startDate": "5 Oct 2021",
+      "notes": "Ok",
+      "id": 2,
       "profileUrl": "../../assets/profile-images/Ellipse -8.png"
     }
   ]
